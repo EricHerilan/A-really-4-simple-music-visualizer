@@ -19,7 +19,7 @@ Digispark的Attiny85, `RGB` LED灯WS2812b, KY-037麦克风传感器, 3.5mm音频
 目前状态 : 一团糟
 ----
 
-剪了一小截然后随便连的线
+一个简单的EQ演示
 
 ![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess6.gif)
 
