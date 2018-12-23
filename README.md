@@ -31,4 +31,4 @@ Digispark的Attiny85, `RGB` LED灯WS2812b, KY-037麦克风传感器, 3.5mm音频
 ----
 
 目前还有不少问题待解决和学习（因为我根本不会arduino...）
-日志另起一章
+[日志另起一章](https://github.com/EricHerilan/A-really-simple-music-visualizer/blob/master/log.md)
