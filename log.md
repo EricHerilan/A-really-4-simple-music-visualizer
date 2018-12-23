@@ -22,7 +22,7 @@
 
 是不行的，或许等麦克风到了先试试麦克风？
 但其实是可以的，可以看看这个[VU METER (Music Visualizer) #1 With Arduino](https://www.instructables.com/id/UV-METER-Music-Visualizer-1-With-Arduino/)
-然后我才意识到直接google：arduino巴拉巴拉music visualizer的东西似乎没太大帮助（因为看不懂..），倒是直接搜EQ倒还有不少是基础的东西。
+然后我才意识到直接google：arduino巴拉巴拉music visualizer的东西似乎没太大帮助（~~因为看不懂..~~），倒是直接搜EQ倒还有不少是基础的东西。
 库的话就用[NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)了
 <br />
 <br />
@@ -109,4 +109,28 @@
 <br />
 <br />
 
+>2018.12.24
+>----
+我发现的确是板子好像有点问题（~~依稀记得很久以前好像冒过烟...~~）
+换了一块就只有`p1`和`p3`有读数了，然后把音频从`p4`输入就发现好像怪怪的（~~因该是因为我没有看说明书~~）  
+如图针脚插线：
+
+![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess5.jpg)
+
+`p4`插的是电脑音频左右声道，接地也接了，但是信号确出现在`p2`上了...
+
+![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess3.gif)
+
+不管了，反正能用就是了，至于会不会烧坏嘛...让时间去证明把，反正到现在为止好像都没有冒过烟。  
+现在就先试试放首歌看看，手机的音频信号相对弱一点，所以就拔掉电阻了：
+
+![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess4.gif)
+
+似乎是可以了，就是东西还没写完整，完整的在[tool](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/tools)目录下面  
+里面现在有一个上面的`input_debug`和这个`onebar_EQ_test`  
+现在把单条的EQ放的大一点的列阵上看看效果：
+
+![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess6.gif)
+
+~~我觉得海星~~，当然这只是第一步，之后还要换麦克风试试，以及最终的视觉效果，当然不可能只是简简单单的EQ条（~~其实也想不出什么好的~~）
 
