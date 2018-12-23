@@ -1,5 +1,8 @@
-# A-really-4-simple-music-visualizer
+# A-really-simple-music-visualizer
 Attiny85 &amp;&amp; WS2812b &amp;&amp;( 3.5mm audio input || Sound Sensor)
+<br>
+<br>
+
 
 原料
 ----
@@ -9,6 +12,9 @@ Digispark的Attiny85, `RGB` LED灯WS2812b, KY-037麦克风传感器, 3.5mm音频
 
 简单的小片片
 
+<br>
+<br>
+
 
 目前状态 : 一团糟
 ----
@@ -16,6 +22,9 @@ Digispark的Attiny85, `RGB` LED灯WS2812b, KY-037麦克风传感器, 3.5mm音频
 剪了一小截然后随便连的线
 
 ![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess6.gif)
+
+<br>
+<br>
 
 
 当然现在还在搞啦
