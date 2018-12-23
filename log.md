@@ -20,13 +20,16 @@
 
 ![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/unfinisheddemo1.gif)
 
-是不行的，应该还要个放大器什么的，等麦克风到了先试试麦克风。  
+是不行的，或许等麦克风到了先试试麦克风？
+但其实是可以的，可以看看这个[VU METER (Music Visualizer) #1 With Arduino](https://www.instructables.com/id/UV-METER-Music-Visualizer-1-With-Arduino/)
+然后我才意识到直接google：arduino巴拉巴拉music visualizer的东西似乎没太大帮助（因为看不懂..），倒是直接搜EQ倒还有不少是基础的东西。
+库的话就用[NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)了
 <br />
 <br />
 
 >2018.12.23
 >----
-卖家给我发错货了...给我发了5个A4988，是想让我用步进电机的度数做嘛（滑稽）
+卖家给我发错货了...给我发了5个A4988，是想让我用步进电机的读数做嘛（滑稽）
 暂时只能回到3.5mm输入再试试了...
 用NeoPixel的库写了一段：
 
