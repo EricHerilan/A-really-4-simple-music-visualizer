@@ -80,7 +80,6 @@
       for (a = 0; a < ttalpix; a++){
       strip.setPixelColor(a, 0, 0, 0);
       }
-      strip.show();
     }
 
 然而没有软用，setup后面就没有然后了...
