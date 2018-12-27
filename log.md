@@ -154,7 +154,7 @@
 
 >2018.12.27
 >----
-还得多看看arduino的[Reference(]https://www.arduino.cc/reference/en/#functions)  
-我才知道不是所有的pin能`analogRead()`的[Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)里也写得明明白白...  
+还得多看看arduino的[Reference](https://www.arduino.cc/reference/en/#functions)  
+我才知道不是所有的pin能`analogRead()`而且在arduino的[Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)里也写得明明白白...（~~果然是不看说明书的后果~~）  
 嘛，看来之前都是瞎搞搞的，而且之前85能读频率估计也是巧合，看来频率转电压这一步看来是必要的了，似乎还要用到示波器...  
 看来下一个亟待解决的问题就是___F转V___了
