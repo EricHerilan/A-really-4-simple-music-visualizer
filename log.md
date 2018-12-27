@@ -149,3 +149,12 @@
 不过从EQ条那几个例子来看，输入还需要有不同的频率，这样最终的参数也会更多的点，也会有更多可能性（~~可能~~）  
 ~~问题是我也不知道怎么区分频率~~。
 啊啊啊，不管了，都要寒假了，R6启动！
+<br />
+<br />
+
+>2018.12.26
+>----
+还得多看看arduino的[Reference(]https://www.arduino.cc/reference/en/#functions)  
+我才知道不是所有的pin能`analogRead()`的[Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)里也写得明明白白...  
+嘛，看来之前都是瞎搞搞的，而且之前85能读频率估计也是巧合，看来频率转电压这一步看来是必要的了，似乎还要用到示波器...  
+看来下一个亟待解决的问题就是___F转V___了
