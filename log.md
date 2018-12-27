@@ -139,11 +139,11 @@
 >2018.12.26
 >----
 麦克风传感器终于到了，以及attiny88带usb
-![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess7.jpg)
+![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess7.jpg)<br />
 但是又有一堆问题堆在了本小白面前：输入信号...  
 如果处理不好的话估计什么效果都别想做了。  
 然而现实就是：直接输入信号估计是行不通了，如下attiny88，A0直接输入音频信号
-![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess8.gif)
+![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess8.gif)<br />
 暂且没法直接用了，然后又去网上草草翻了一下资料，现在还在研究[Devon Crawford的一个视频](https://www.youtube.com/watch?v=lU1GVVU9gLU),里面提到了一个电压频率转换器——LM331N（我也不知道干嘛用的）具体还需要多看点实例，是时候去趟学校图书馆了（我个视传的居然回去图书馆4西楼也是绝了），又是一小笔开销。
 然后看到有不少用SparkFun Spectrum Shield或者一种现成的板子：nootropic Lumazoid Music Visualizer，当然出于成本和学习的目的这些100%是不会考虑在内的。
 不过从EQ条那几个例子来看，输入还需要有不同的频率，这样最终的参数也会更多的点，也会有更多可能性（~~可能~~）  
