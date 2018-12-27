@@ -152,7 +152,7 @@
 <br />
 <br />
 
->2018.12.26
+>2018.12.27
 >----
 还得多看看arduino的[Reference(]https://www.arduino.cc/reference/en/#functions)  
 我才知道不是所有的pin能`analogRead()`的[Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)里也写得明明白白...  
