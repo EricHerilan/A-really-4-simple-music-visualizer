@@ -157,4 +157,20 @@
 还得多看看arduino的[Reference](https://www.arduino.cc/reference/en/#functions)  
 我才知道不是所有的pin能`analogRead()`而且在arduino的[Reference](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)里也写得明明白白...（~~果然是不看说明书的后果~~）  
 嘛，看来之前都是瞎搞搞的，而且之前85能读频率估计也是巧合，看来频率转电压这一步看来是必要的了，似乎还要用到示波器...  
-看来下一个亟待解决的问题就是___F转V___了
+看来下一个亟待解决的问题就是**F转V**了
+<br />
+<br />
+
+>2019.1.1
+>----
+新年了，寒假要鸽了，因为东西都放学校了...  
+这两天倒是搞了个不怎么相干的东西——物理按键说话（push to talk key）  
+因为现在语音搞了个soundbord（放那种搞笑声音片段用的那种）所以又两个音源输入了，但电脑上耳机孔就一个，而且就算有两个要让游戏一起读取两个audio in太麻烦了，就搞了这么个偷懒的东西lul  
+![](https://github.com/EricHerilan/A-really-simple-music-visualizer/raw/master/img/mess9.jpg)<br />
+当然
+
+最近还在看[greatscottlab](https://www.youtube.com/user/greatscottlab)做的一些挺有趣的东西，当然人家比起我不知道硬核到哪里去了。  
+不过倒是有不少东西能让我让我节省不少时间，比如~~去~~前年这位大佬[diy过一个麦克风](https://www.youtube.com/watch?v=ts-JqEVzvDo)，里面还告诉你这么做个amp（美滋滋）。
+其实我对这些原件都不了解，~~甚至不知道三极管、电容啥的干嘛用~~...
+毕竟随便玩玩嘛~  
+不过现在倒是要重新考虑下最后到底要呈现出怎么样效果了，毕竟attiny的容量小，或许之后会换个mega吧，多余的attiny还能diy个键盘啥的
